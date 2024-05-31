@@ -88,7 +88,6 @@ public class ChessMatch {
 
 		ChessPiece movedPiece = (ChessPiece) board.piece(target);
 
-		
 		// #specialmove promotion
 		
 		promoted = null;
@@ -114,7 +113,7 @@ public class ChessMatch {
 		} else {
 			enPassantVulnerable = null;
 		}
-
+		
 		return (ChessPiece) capturedPiece;
 	}
 	
